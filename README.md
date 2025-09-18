@@ -1,8 +1,5 @@
 # 🎲 Tic-Tac-Toe (Jogo da Velha) com React + Vite
 
-![Tic-Tac-Toe Gameplay](https://media.giphy.com/media/3o7aDczpC2i23j2VfG/giphy.gif) 
-> *Substitua pelo GIF ou imagem do seu projeto.*
-
 > Um clássico Jogo da Velha construído com as tecnologias mais modernas do ecossistema React. Este projeto foi desenvolvido como um exercício prático para aprimorar habilidades em componentes, gerenciamento de estado e roteamento com React Router, proposto pela professora [Ana Paula Müller Giancoli](https://www.linkedin.com/in/ana-paula-m%C3%BCller-giancoli).
 
 **[🔗 Acesse a demonstração ao vivo](https://tic-tac-toe-react-vite.vercel.app/)** 
