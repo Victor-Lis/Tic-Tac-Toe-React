@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import { calculateDraw, calculateWinner } from "../utils/calculate-winner";
+import { calculateDraw, calculateWinner } from "../utils/game-functions";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
 
