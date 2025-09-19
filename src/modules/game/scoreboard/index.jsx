@@ -22,11 +22,11 @@ export default function Scoreboard() {
       </div>
       <div className={styles.scores}>
         <div className={styles.scoreCard}>
-          <X size={22} className={styles.playerX} />
+          <X size={40} className={styles.playerX} />
           <span className={styles.score}>{score.x}</span>
         </div>
         <div className={styles.scoreCard}>
-          <Circle size={20} className={styles.playerO} />
+          <Circle size={30} className={styles.playerO} />
           <span className={styles.score}>{score.o}</span>
         </div>
       </div>

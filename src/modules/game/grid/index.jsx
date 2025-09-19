@@ -13,7 +13,7 @@ export default function Grid() {
           key={i}
           content={
             value === "o" ? (
-              <Circle size={35} />
+              <Circle size={35} style={{ color: "#d21919ff" }} />
             ) : value === "x" ? (
               <X size={50} />
             ) : null
