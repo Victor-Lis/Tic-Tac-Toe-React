@@ -19,3 +19,7 @@ export function calculateWinner(board) {
   }
   return null;
 }
+
+export function calculateDraw(board) {
+  return board.every(cell => cell !== null);
+}

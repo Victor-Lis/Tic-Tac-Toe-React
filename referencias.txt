@@ -1,0 +1,2 @@
+GitHub: https://github.com/Victor-Lis/Tic-Tac-Toe-React/
+Deploy: https://tic-tac-toe-react-by-victor-lis-bronzo.vercel.app/

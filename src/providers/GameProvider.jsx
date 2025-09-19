@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import { calculateWinner } from "../utils/calculate-winner";
+import { calculateDraw, calculateWinner } from "../utils/calculate-winner";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
 
@@ -17,11 +17,16 @@ export const GameProvider = ({ children }) => {
     newBoard[index] = currentPlayer;
     setBoard(newBoard);
 
+    console.log("New board state:", newBoard);
+
     if (calculateWinner(newBoard)) {
       setScore((prev) => ({
         ...prev,
         [currentPlayer]: prev[currentPlayer] + 1,
       }));
+      setBoard(Array(9).fill(null));
+    } else if (calculateDraw(newBoard)) {
+      toast.info("Empate!");
       setBoard(Array(9).fill(null));
     } else {
       setCurrentPlayer(currentPlayer === "x" ? "o" : "x");
